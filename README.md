@@ -1,11 +1,11 @@
 ## User Manual (docker-compose)
 
-1. clone github repository:
+1. Clone Github repository:
 
 ````
 git clone https://github.com/golyshevskii/sms_sending.git
 ````
-2. Change .env file: ```TOKEN = 'your token'```
+2. Change ```.env``` file: ```TOKEN = 'your token'```
 3. Run docker containers 
 ``` 
 docker-compose up -d

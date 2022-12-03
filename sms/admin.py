@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import SendingMessages, Client, Message
 
-# Register your models here.
+
+admin.site.register(SendingMessages)
+admin.site.register(Client)
+admin.site.register(Message)

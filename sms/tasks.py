@@ -24,7 +24,7 @@ def send_message(self, data, client_id, mailing_id, url=URL, token=TOKEN):
    
     if mail.time_start <= now.time() <= mail.time_end:
         header = {
-            'Authorization': f'Bearer {token}',
+            'Authorization': f'TK {token}',
             'Content-Type': 'application/json'}
 
         try:

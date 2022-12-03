@@ -1,3 +1,8 @@
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
 docker-compose build
-docker-compose run --rm app django-admin startproject core .
+docker-compose run --rm web django-admin startproject core .
 docker exec -it django_web sh

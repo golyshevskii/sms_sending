@@ -2,13 +2,13 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 
-from sms.views import ClientViewSet, MailingViewSet, MessageViewSet
+from sms.views import SendingMessagesViewSet, ClientViewSet, MessageViewSet
 from .yasg import surlpatterns
 
 router = routers.DefaultRouter()
 router.register(r'clients', ClientViewSet)
 router.register(r'messages', MessageViewSet)
-router.register(r'mailings', MailingViewSet)
+router.register(r'sending_messages', SendingMessagesViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -6,4 +6,4 @@ class SmsConfig(AppConfig):
     name = 'sms'
 
     def ready(self):
-        from sms import signals   
+        from sms import signals

@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     # lbs
     'rest_framework',
     'drf_yasg',
-    'drf-yasg2'
+    'drf_yasg2'
 ]
 
 MIDDLEWARE = [

@@ -30,6 +30,18 @@ docker-compose up -d
 
 ***
 
+3.1. If there are no tables (SQL errors):
+    1. Open new terminal
+    2. Run command
+```
+    docker exec -it django_app sh
+```
+    3. Run:
+```
+    python manage.py makemigrations
+    python manage.py migrate
+```
+
 4. Stop docker
 ```
 docker-compose down

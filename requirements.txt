@@ -2,7 +2,7 @@ amqp==2.6.1
 asgiref==3.5.0
 async-timeout==4.0.2
 billiard==3.6.4.0
-celery>=4.4.7
+celery==4.4.7
 certifi==2021.10.8
 charset-normalizer==2.0.12
 click==8.1.2
@@ -12,9 +12,10 @@ click-repl==0.2.0
 coreapi==2.3.3
 coreschema==0.0.4
 Deprecated==1.2.13
-Django>=4.0.3
-djangorestframework>=3.13.1
-drf-yasg==1.20.0
+Django==4.0.8
+djangorestframework==3.14.0
+drf-yasg==1.21.4
+drf-yasg2==1.19.4
 flower==0.9.7
 humanize==4.0.0
 idna==3.3
@@ -30,7 +31,7 @@ psycopg2==2.9.3
 pyparsing==3.0.7
 python-dotenv==0.20.0
 pytz==2022.1
-redis>=3.5.3
+redis==4.3.5
 requests==2.27.1
 ruamel.yaml==0.17.21
 ruamel.yaml.clib==0.2.6

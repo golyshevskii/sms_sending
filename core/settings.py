@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     # lbs
     'rest_framework',
     'drf_yasg',
+    'drf-yasg2'
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 25,
 }
+
+# SWAGGER_SETTINGS = { 
+#     'DEFAULT_GENERATOR_CLASS': 'rest_framework.schemas.generators.BaseSchemaGenerator', 
+# }

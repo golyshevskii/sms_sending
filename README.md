@@ -50,3 +50,7 @@ python manage.py migrate
 ```
 docker-compose down
 ```
+
+### Implemented items regarding the terms of reference 
+> Реализованные пункты относительно ТЗ:
+> 3, 5, 6 / 2, 11, 12

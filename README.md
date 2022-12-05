@@ -1,4 +1,6 @@
-## User Manual (docker-compose)
+## User Manual (docker)
+
+> Docker install required
 
 1. Clone Github repository:
 
